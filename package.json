@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-tdd",
+  "version": "1.0.0",
+  "description": "Simple nodejs app built in TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnsantos/nodejs-tdd.git"
+  },
+  "author": "Bruno Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bnsantos/nodejs-tdd/issues"
+  },
+  "homepage": "https://github.com/bnsantos/nodejs-tdd#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "should": "^7.0.3",
+    "supertest": "^1.0.1"
+  }
+}
