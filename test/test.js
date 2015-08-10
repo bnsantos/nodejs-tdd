@@ -1,8 +1,17 @@
 var assert = require('assert')
   , should = require('should')
   , request = require('supertest')
+  , app = require('../app')
 
 describe('Express Test', function(){
+  var server
+  before(function(){
+    server = app.listen(3000)
+  })
+
+  after(function(){
+    server.close()
+  })
 
   describe('Get tests', function(){
     it('Get / should return 200', function(done){
